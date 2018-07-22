@@ -1,0 +1,25 @@
+
+body{
+    margin: 0%;
+    background-image: url("./highfive.jpg");
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    
+}
+
+.card-body{
+    font-family: 'Merienda', cursive;
+    background-color: rgba(243, 169, 32, 0.3); 
+}
+
+.btn{
+    float: center;
+}
+
+.container2{
+    font-family: 'Merienda', cursive;
+    background-color: rgba(182, 166, 137, 0.1);
+    
+}

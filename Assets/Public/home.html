@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Find an friend</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="../Etc/highfive.jpg" />
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+</head>
+
+<body>
+    <br>
+    <br>
+    <div class = "container">
+        
+        <div class="card">
+               
+                <div class="card-body">
+                  <h5 class="card-title">Welcome to find a Pal!</h5>
+                  <p class="card-text">Looking to find your BFF match? Answer a few questions and see who you pair with!</p>
+                  <a href="survey" class="btn btn-primary">Find Your Match Now!</a>
+                  
+                </div>
+        </div>
+    </div>
+
+</body>
+<style>
+body{
+    
+    background-image: url("./highfive.jpg");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+}
+
+.card-body{
+    font-family: 'Merienda', cursive;
+    background-color: rgba(243, 169, 32, 0.3); 
+}
+
+.btn{
+    float: center;
+}
+
+</style>
+
+<script type="text/javascript">
+
+    function getData(){
+        var currentURL = window.location.origin;
+        $.ajax({
+        url: currentURL + "/api/friends", 
+        method: "GET"
+        })
+    }
+
+</script>
+
+</html>
