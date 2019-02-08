@@ -8,14 +8,14 @@
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/ColinRhysRichards/friendFinder.git"
+      "url": "git+https://github.com/Smon2970/friend-finder.git"
     },
     "author": "",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/ColinRhysRichards/friendFinder/issues"
+      "url": "https://github.com/Smon2970/friend-finder.git"
     },
-    "homepage": "https://github.com/ColinRhysRichards/friendFinder#readme",
+    "homepage": "https://github.com/Smon2970/friend-finder.git",
     "dependencies": {
       "body-parser": "^1.18.3",
       "express": "^4.16.4",
